@@ -93,29 +93,29 @@ The purpose of this lab is to both get you familiar with using these non-github 
 
         |                | `binary_search`           | `trinary_search`      |
         | -------------- | ------------------------- | --------------------- | 
-        | `n=2**0`       |    0.335 usec             |   0.622 usec             |
-        | `n=2**1`       |    0.583 usec            |    1.07 usec            |
+        | `n=2**0`       |    0.335 usec             |   0.622 usec          |
+        | `n=2**1`       |    0.583 usec             |   1.07 usec           |
         | `n=2**2`       |    0.842 usec             |   1.08 usec           |
-        | `n=2**3`       |    0.938 usec             |   1.18 usec         |
-        | `n=2**4`       |    1.3 usec             |     0.296 usec       |
-        | `n=2**5`       |     1.6 usec               |  1.2 usec         |
-        | `n=2**6`       |      1.73 usec              | 2.24 usec           |
-        | `n=2**7`       |      2.12 usec            |   2.28 usec          |
-        | `n=2**8`       |      2.92 usec            |   3.08 usec            |
-        | `n=2**9`       |      4.15 usec            |   2.57 usec            |
-        | `n=2**10`      |      6.55 usec            |     4.57 usec       |
+        | `n=2**3`       |    0.938 usec             |   1.18 usec           |
+        | `n=2**4`       |    1.3 usec               |      0.296 usec       |
+        | `n=2**5`       |     1.6 usec              |      1.2 usec         |
+        | `n=2**6`       |      1.73 usec            |   2.24 usec           |
+        | `n=2**7`       |      2.12 usec            |    2.28 usec          |
+        | `n=2**8`       |      2.92 usec            |  3.08 usec            |
+        | `n=2**9`       |      4.15 usec            |  2.57 usec            |
+        | `n=2**10`      |      6.55 usec            |       4.57 usec       |
         | `n=2**11`      |      10.5 usec            |   7.17 usec           |
-        | `n=2**12`      |      18.4 usec            |   11.9 usec          |
+        | `n=2**12`      |      18.4 usec            |    11.9 usec          |
         | `n=2**13`      |      35.6 usec            |   20.4 usec           |
-        | `n=2**14`      |      69 usec            |     37.7 usec       |
-        | `n=2**15`      |      178 usec              |   79.4 usec         |
-        | `n=2**16`      |        422 usec             |  201 usec            |
-        | `n=2**17`      |         911 usec           |   456 usec             |
-        | `n=2**18`      |           1.92 msec          | 960 usec             |
-        | `n=2**19`      |           4.87 msec          |  2.13 msec             |
-        | `n=2**20`      |            13.4 msec       |    6.05 msec           |
-        | `n=2**21`      |             40 msec      |      15.7 msec            |
-        | `n=2**22`      |              40 msec       |    35.4 msec             |
+        | `n=2**14`      |      69 usec              |       37.7 usec       |
+        | `n=2**15`      |      178 usec             |     79.4 usec         |
+        | `n=2**16`      |        422 usec           |   201 usec            |
+        | `n=2**17`      |         911 usec          |  456 usec             |
+        | `n=2**18`      |           1.92 msec       |  960 usec             |
+        | `n=2**19`      |           4.87 msec       | 2.13 msec             |
+        | `n=2**20`      |            13.4 msec      |   6.05 msec           |
+        | `n=2**21`      |             40 msec       |  15.7 msec            |
+        | `n=2**22`      |              40 msec      | 35.4 msec             |
 
 
 1. Use the master theorem to solve the following recurrence relations,
