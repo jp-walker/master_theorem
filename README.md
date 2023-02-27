@@ -80,10 +80,15 @@ The purpose of this lab is to both get you familiar with using these non-github 
         (Feel free to check your answers with me before moving on.)
     
     1. Next, we will use the timeit module to analyze the function empirically.
-        The theoretical results above should give you a good prediction about how the empirical experiments below will turn out.
+        The theoretical results above should give you a good prediction about how the
+	empirical experiments below will turn out.
 
-        Your task is to complete below that shows the actual runtime of the `binary_search` and `trinary_search` functions.
-        To complete this table, modify the `timeit` command from the [Runtime vs N section of lab-timeit2](https://github.com/mikeizbicki/lab-timeit2#runtime-vs-n) so that it: (1) uses the appropriate functions from this lab, and (2) uses the numpy array instead of a list as the input data structure.
+        Your task is to complete below that shows the actual runtime of the
+	`binary_search` and `trinary_search` functions.
+        To complete this table, modify the `timeit` command from the [Runtime vs N section of
+	lab-timeit2](https://github.com/mikeizbicki/lab-timeit2#runtime-vs-n) so that it:
+	(1) uses the appropriate functions from this lab, and (2) uses the numpy array instead
+	of a list as the input data structure.
         As in the previous lab, I recommend using a bash for loop to complete this task.
 
         |                | `binary_search`           | `trinary_search`      |
