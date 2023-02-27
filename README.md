@@ -67,15 +67,15 @@ The purpose of this lab is to both get you familiar with using these non-github 
     
         1. The recurrence relation that describes the function's runtime:
             $$T(n) = aT(n/b) + f(n)$$
-```
+
 		T(n) = T(n/3) + 1
-```
+
         1. The solution to the recurrence you wrote above as provided by the master theorem:
             $$T(n) = \Theta()$$
-```
+
 	       Ccrit = log_3(1) = 0
 	       Theta(log(n))
-```
+
 	       
         (Feel free to check your answers with me before moving on.)
     
